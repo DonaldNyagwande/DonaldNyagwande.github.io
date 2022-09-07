@@ -1,0 +1,18 @@
+.a{
+    text-align: center;
+    font-size: 22pt;
+    color: rgb(164, 164, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+#head{
+    color: rgb(164, 164, 0);
+    font-size: 18pt;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: rgb(164, 164, 0);
+}
