@@ -1,0 +1,133 @@
+#header{
+    grid-area: header;
+    background-color: aqua;
+    text-align: center;
+}
+#menuitems{
+    grid-area: q;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    background-color: green;
+
+}
+#menu1{
+    border-right: 2px solid black;
+    padding: 20px;
+    align-self: center;
+    text-decoration: none;
+   
+
+}
+
+#menu2{
+    border-right: 2px solid black;
+    padding: 20px;
+    align-self: center;
+   
+   
+
+}
+#menu3{
+    border-right: 2px solid black;
+    padding: 20px;
+    align-self: center;
+    
+   
+
+}
+#column{
+    grid-area: a;
+    display: flex;
+    height: 100%;
+}
+#column1{
+    
+    
+    background-color:#99a3a1;
+    width: 300px;
+    height: 300px;
+
+}
+#column2{
+    
+  
+    width: 40%;
+    height: 100%;
+    background-color:#bdbfbf;;
+    
+}
+#column3{
+    
+  
+    width: 30%;
+    height: 100%;
+    background-color:darkgray;
+    
+}
+#footer{
+    height: 50px;
+    grid-area: d;   
+    width: 100%;
+    text-align: center;
+    background-color: green;
+}
+#container{
+    display: grid;
+    width: 100%;
+    
+    grid-template-areas: 
+    'header header header '
+    'q q q '
+    'a a a '
+    'a a a '
+    'a a a '
+    'a a a '
+    'a a a '
+    'a a a '
+    'a a a '
+    'a a a '
+    'd d d ';
+}
+@media screen and (max-width:600px) {
+
+    #footer{
+        height: 50px;
+        grid-area: d;   
+        width: 100%;
+        text-align: center;
+        background-color: aqua;
+        margin-top: 100px;
+    }
+    #column{
+        
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+    }
+    #column1{
+        
+        
+        background-color:#99a3a1;
+        width: 50%;
+        height: 100%;
+    
+    }
+    #column2{
+        
+      
+        width: 50%;
+        height: 100%;
+        background-color:#bdbfbf;;
+        
+    }
+    #column3{
+        
+      
+        width: 100%;
+        height: 100px;
+        background-color:darkgray;
+        
+    }
+}
